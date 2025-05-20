@@ -85,13 +85,13 @@ Edit file .env menggunakan editor teks, lalu tambahkan API Key Gemini Anda:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-## 3. 🖥️ Menjalankan Aplikasi
-### Jalankan Backend FastAPI
+## 🖥️ Menjalankan Aplikasi
+### 1. Jalankan Backend FastAPI
 ```
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-### Jalankan Frontend Gradio (di terminal baru)
+### 2. Jalankan Frontend Gradio (di terminal baru)
 ```
 cd gradio_app
 python app.py
