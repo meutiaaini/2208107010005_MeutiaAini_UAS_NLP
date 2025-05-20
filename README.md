@@ -98,9 +98,9 @@ python app.py
 ```
 
 ## 🙋‍♀️ Tentang
-Nama: Meutia Aini
-NIM: 2208107010005
-Mata Kuliah: Praktikum Pemrosesan Bahasa Alami
+- Nama: Meutia Aini
+- NIM: 2208107010005
+- Mata Kuliah: Praktikum Pemrosesan Bahasa Alami
 
 ## 👨‍💻 Dibuat Untuk
 Proyek UAS mata kuliah *Pemrosesan Bahasa Alami* — Semester Genap 2024/2025.
