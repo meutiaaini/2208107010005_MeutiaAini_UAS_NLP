@@ -39,5 +39,19 @@ Pastikan Anda telah menginstal komponen berikut sebelum menjalankan proyek:
 - Disarankan menggunakan model Whisper: `ggml-large-v3-turbo`.
 - Gunakan speaker: `wibowo` dari model Coqui v1.2.
 
+## 🚀 Langkah Instalasi
+
+### 1. Clone Repositori
+
+```bash
+git clone https://github.com/WidyaNurulSukma/2208107010054_WidyaNurulSukma_UAS_NLP.git
+cd 2208107010054_WidyaNurulSukma_UAS_NLP
+```
+
+### 2. Instal Dependensi Python
+```
+pip install -r requirements.txt
+```
+
 ## 👨‍💻 Dibuat Untuk
 Proyek UAS mata kuliah *Pemrosesan Bahasa Alami* — Semester Genap 2024/2025.
