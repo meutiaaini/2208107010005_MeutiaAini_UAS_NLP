@@ -27,7 +27,13 @@ voice_chatbot_project/
 ├── requirements.txt       # Daftar dependensi Python
 ```
 
-## 📚 Catatan
+## 📋 Prasyarat
+Pastikan Anda telah menginstal komponen berikut sebelum menjalankan proyek:
+- Python **versi 3.9** atau lebih baru  
+- **Whisper.cpp** (beserta model `ggml-large-v3-turbo.bin`)  
+- **Coqui TTS** (beserta model Bahasa Indonesia) 
+
+## 📚 Catatan Penggunaan
 - Semua file audio menggunakan format `.wav`.
 - Untuk menghasilkan fonem seperti `dəˈnɡan`, teks dari Gemini harus dikonversi ke fonetik.
 - Disarankan menggunakan model Whisper: `ggml-large-v3-turbo`.
