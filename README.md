@@ -106,6 +106,7 @@ python app.py
 Proyek UAS mata kuliah *Pemrosesan Bahasa Alami* — Semester Genap 2024/2025.
 
 ## Link Video YouTube
+https://youtu.be/8qvz9XF8RPQ
 
 ## Link Postingan LinkedIn
 https://www.linkedin.com/posts/meutia-aini-17121931b_naturallanguageprocessing-speechtotext-texttospeech-activity-7330119314584272896-wAeN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFEDFqUBVR5cxWTIShRHIwXIgxT3EzSlAWY
