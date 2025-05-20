@@ -44,8 +44,8 @@ Pastikan Anda telah menginstal komponen berikut sebelum menjalankan proyek:
 ### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/WidyaNurulSukma/2208107010054_WidyaNurulSukma_UAS_NLP.git
-cd 2208107010054_WidyaNurulSukma_UAS_NLP
+git clone https://github.com/meutiaaini/2208107010005_MeutiaAini_UAS_NLP.git
+cd 2208107010005_MeutiaAini_UAS_NLP
 ```
 
 ### 2. Instal Dependensi Python
@@ -53,5 +53,59 @@ cd 2208107010054_WidyaNurulSukma_UAS_NLP
 pip install -r requirements.txt
 ```
 
+### 3. Clone dan Kompilasi whisper.cpp
+```
+cd app
+git clone https://github.com/ggerganov/whisper.cpp.git
+cd whisper.cpp
+make
+cd ..
+```
+
+### 4. Unduh Model Whisper
+```
+mkdir -p whisper.cpp/models
+cd whisper.cpp/models
+wget https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo.bin
+cd ../..
+```
+
+### 5. Siapkan Model Coqui TTS
+```
+mkdir -p coqui_utils
+```
+
+### 6. Konfigurasi API Key Gemini
+```
+cp .env.example .env
+```
+
+Edit file .env menggunakan editor teks, lalu tambahkan API Key Gemini Anda:
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+## 3. 🖥️ Menjalankan Aplikasi
+### Jalankan Backend FastAPI
+```
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+### Jalankan Frontend Gradio (di terminal baru)
+```
+cd gradio_app
+python app.py
+```
+
+## 🙋‍♀️ Tentang
+Nama: Meutia Aini
+NIM: 2208107010005
+Mata Kuliah: Praktikum Pemrosesan Bahasa Alami
+
 ## 👨‍💻 Dibuat Untuk
 Proyek UAS mata kuliah *Pemrosesan Bahasa Alami* — Semester Genap 2024/2025.
+
+## Link Video YouTube
+
+## Link Postingan LinkedIn
+https://www.linkedin.com/posts/meutia-aini-17121931b_naturallanguageprocessing-speechtotext-texttospeech-activity-7330119314584272896-wAeN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFEDFqUBVR5cxWTIShRHIwXIgxT3EzSlAWY
